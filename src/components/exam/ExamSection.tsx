@@ -61,7 +61,6 @@ export function ExamSection({
             const optionLetter = String.fromCharCode(65 + index);
             const isSelected = selectedOption === optionLetter;
             const isCorrect = showAnswers && correctAnswer === optionLetter;
-            const isWrong = showAnswers && isSelected && correctAnswer !== optionLetter;
 
             return (
               <button

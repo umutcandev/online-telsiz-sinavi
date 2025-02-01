@@ -5,11 +5,24 @@ import { ArrowRight, CheckCircle2, XCircle, Circle, RefreshCw, Github } from "lu
 import { ExamSection } from '@/components/exam/ExamSection';
 import { getExamQuestions, getExamTitle, ExamType } from '@/lib/exam';
 
+interface Question {
+  id: number;
+  question: string;
+  options: {
+    A: string;
+    B: string;
+    C: string;
+    D: string;
+  };
+  answer: string;
+  image: string | null;
+}
+
 export default function Home() {
   const [activeExam, setActiveExam] = useState<ExamType | null>(null);
   const [currentQuestion, setCurrentQuestion] = useState(1);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
-  const [questions, setQuestions] = useState<any[]>([]);
+  const [questions, setQuestions] = useState<Question[]>([]);
   const [answers, setAnswers] = useState<(string | null)[]>([]);
   const [showResults, setShowResults] = useState(false);
   const [reviewMode, setReviewMode] = useState(false);
