@@ -1,0 +1,392 @@
+{
+  "exam_type": "operations",
+  "title": "A-B SINIFI İŞLETME SORU TESTİ",
+  "total_questions": 30,
+  "questions_per_exam": 20,
+  "questions": [
+    {
+      "id": 1,
+      "question": "İşletme soru metni?",
+      "options": {
+        "A": "A seçeneği",
+        "B": "B seçeneği",
+        "C": "C seçeneği",
+        "D": "D seçeneği"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 2,
+      "question": "Resimli soru örneği?",
+      "options": {
+        "A": "A seçeneği",
+        "B": "B seçeneği",
+        "C": "C seçeneği",
+        "D": "D seçeneği"
+      },
+      "answer": "A",
+      "image": "/images/operations/soru2.png"
+    },
+    {
+      "id": 3,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde hangi çağrı işareti kullanılmalıdır?",
+      "options": {
+        "A": "Sadece kendi çağrı işareti",
+        "B": "KEGM tarafından verilen çağrı işareti",
+        "C": "İstediği herhangi bir çağrı işareti",
+        "D": "Başka bir amatör telsizci çağrı işareti"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 4,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde Q kodları ne amaçla kullanılır?",
+      "options": {
+        "A": "Haberleşmeyi zorlaştırmak için",
+        "B": "Haberleşmeyi kolaylaştırmak için",
+        "C": "Haberleşmeyi gizlemek için",
+        "D": "Haberleşmeyi yavaşlatmak için"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 5,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde hangi dil kullanılabilir?",
+      "options": {
+        "A": "Sadece Türkçe",
+        "B": "Sadece İngilizce",
+        "C": "Türkçe veya uluslararası amatör telsiz haberleşmelerinde geçerli diller",
+        "D": "Herhangi bir dil"
+      },
+      "answer": "C",
+      "image": null
+    },
+    {
+      "id": 6,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde hangi bilgiler kaydedilmelidir?",
+      "options": {
+        "A": "Sadece tarih",
+        "B": "Sadece saat",
+        "C": "Tarih, saat, frekans, mod ve karşı istasyon bilgileri",
+        "D": "Kayıt tutmaya gerek yoktur"
+      },
+      "answer": "C",
+      "image": null
+    },
+    {
+      "id": 7,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde hangi konular konuşulabilir?",
+      "options": {
+        "A": "Her türlü konu",
+        "B": "Sadece teknik konular",
+        "C": "Amatör telsizcilikle ilgili teknik ve operasyonel konular",
+        "D": "Sadece hava durumu"
+      },
+      "answer": "C",
+      "image": null
+    },
+    {
+      "id": 8,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde müzik yayını yapılabilir mi?",
+      "options": {
+        "A": "Evet, her zaman yapılabilir",
+        "B": "Hayır, kesinlikle yapılamaz",
+        "C": "Sadece test amaçlı yapılabilir",
+        "D": "Sadece özel günlerde yapılabilir"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 9,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde reklam yapılabilir mi?",
+      "options": {
+        "A": "Evet, her türlü reklam yapılabilir",
+        "B": "Hayır, kesinlikle yapılamaz",
+        "C": "Sadece amatör telsizcilikle ilgili reklamlar yapılabilir",
+        "D": "Sadece kendi ürünlerinin reklamı yapılabilir"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 10,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde siyasi propaganda yapılabilir mi?",
+      "options": {
+        "A": "Evet, her türlü propaganda yapılabilir",
+        "B": "Hayır, kesinlikle yapılamaz",
+        "C": "Sadece seçim dönemlerinde yapılabilir",
+        "D": "Sadece kendi görüşleri paylaşılabilir"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 11,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde acil durum bildirimi nasıl yapılır?",
+      "options": {
+        "A": "MAYDAY veya SOS işareti kullanılır",
+        "B": "Normal haberleşmeye devam edilir",
+        "C": "İstasyon kapatılır",
+        "D": "Sadece yetkililere bildirilir"
+      },
+      "answer": "A",
+      "image": null
+    },
+    {
+      "id": 12,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde güvenlik güçlerinin telsiz haberleşmesi dinlenebilir mi?",
+      "options": {
+        "A": "Evet, dinlenebilir",
+        "B": "Hayır, kesinlikle dinlenemez",
+        "C": "Sadece acil durumlarda dinlenebilir",
+        "D": "Sadece izin alınarak dinlenebilir"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 13,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde log defteri tutulması zorunlu mudur?",
+      "options": {
+        "A": "Evet, zorunludur",
+        "B": "Hayır, zorunlu değildir",
+        "C": "Sadece DX haberleşmelerinde zorunludur",
+        "D": "Sadece yarışmalarda zorunludur"
+      },
+      "answer": "A",
+      "image": null
+    },
+    {
+      "id": 14,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde hangi modlar kullanılabilir?",
+      "options": {
+        "A": "Sadece AM modu",
+        "B": "Sadece FM modu",
+        "C": "KEGM tarafından izin verilen tüm modlar",
+        "D": "Herhangi bir mod"
+      },
+      "answer": "C",
+      "image": null
+    },
+    {
+      "id": 15,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde karşı istasyonun sinyali nasıl rapor edilir?",
+      "options": {
+        "A": "RST sistemi ile",
+        "B": "Sadece sinyal gücü ile",
+        "C": "Sadece ses kalitesi ile",
+        "D": "Herhangi bir şekilde"
+      },
+      "answer": "A",
+      "image": null
+    },
+    {
+      "id": 16,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde QRM ne anlama gelir?",
+      "options": {
+        "A": "İyi sinyaller",
+        "B": "Atmosferik parazit",
+        "C": "İnsan kaynaklı parazit",
+        "D": "Zayıf sinyal"
+      },
+      "answer": "C",
+      "image": null
+    },
+    {
+      "id": 17,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde QRN ne anlama gelir?",
+      "options": {
+        "A": "İyi sinyaller",
+        "B": "Atmosferik parazit",
+        "C": "İnsan kaynaklı parazit",
+        "D": "Zayıf sinyal"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 18,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde QRZ ne anlama gelir?",
+      "options": {
+        "A": "Kim çağırıyor?",
+        "B": "Sinyal zayıf",
+        "C": "Parazit var",
+        "D": "Yayını kes"
+      },
+      "answer": "A",
+      "image": null
+    },
+    {
+      "id": 19,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde QRT ne anlama gelir?",
+      "options": {
+        "A": "Kim çağırıyor?",
+        "B": "Sinyal zayıf",
+        "C": "Parazit var",
+        "D": "Yayını kes"
+      },
+      "answer": "D",
+      "image": null
+    },
+    {
+      "id": 20,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde QSY ne anlama gelir?",
+      "options": {
+        "A": "Frekans değiştir",
+        "B": "Sinyal zayıf",
+        "C": "Parazit var",
+        "D": "Yayını kes"
+      },
+      "answer": "A",
+      "image": null
+    },
+    {
+      "id": 21,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde CQ ne anlama gelir?",
+      "options": {
+        "A": "Genel çağrı",
+        "B": "Özel çağrı",
+        "C": "Acil çağrı",
+        "D": "Test çağrısı"
+      },
+      "answer": "A",
+      "image": null
+    },
+    {
+      "id": 22,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde DX ne anlama gelir?",
+      "options": {
+        "A": "Uzak mesafe haberleşmesi",
+        "B": "Yakın mesafe haberleşmesi",
+        "C": "Acil haberleşme",
+        "D": "Test haberleşmesi"
+      },
+      "answer": "A",
+      "image": null
+    },
+    {
+      "id": 23,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde RST raporundaki R ne anlama gelir?",
+      "options": {
+        "A": "Okunabilirlik",
+        "B": "Sinyal gücü",
+        "C": "Ton kalitesi",
+        "D": "Parazit seviyesi"
+      },
+      "answer": "A",
+      "image": null
+    },
+    {
+      "id": 24,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde RST raporundaki S ne anlama gelir?",
+      "options": {
+        "A": "Okunabilirlik",
+        "B": "Sinyal gücü",
+        "C": "Ton kalitesi",
+        "D": "Parazit seviyesi"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 25,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde RST raporundaki T ne anlama gelir?",
+      "options": {
+        "A": "Okunabilirlik",
+        "B": "Sinyal gücü",
+        "C": "Ton kalitesi",
+        "D": "Parazit seviyesi"
+      },
+      "answer": "C",
+      "image": null
+    },
+    {
+      "id": 26,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde QSL kartı ne amaçla kullanılır?",
+      "options": {
+        "A": "Haberleşmeyi doğrulamak için",
+        "B": "Sinyal raporunu bildirmek için",
+        "C": "İstasyon bilgilerini paylaşmak için",
+        "D": "Hepsi"
+      },
+      "answer": "D",
+      "image": null
+    },
+    {
+      "id": 27,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde split frekans ne anlama gelir?",
+      "options": {
+        "A": "Alış ve veriş frekanslarının farklı olması",
+        "B": "Aynı frekansta çalışma",
+        "C": "Frekans değiştirme",
+        "D": "Frekans kayması"
+      },
+      "answer": "A",
+      "image": null
+    },
+    {
+      "id": 28,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde pile-up ne anlama gelir?",
+      "options": {
+        "A": "Birçok istasyonun aynı anda çağrı yapması",
+        "B": "Sinyal zayıflığı",
+        "C": "Frekans karışması",
+        "D": "Parazit oluşması"
+      },
+      "answer": "A",
+      "image": null
+    },
+    {
+      "id": 29,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde contest ne anlama gelir?",
+      "options": {
+        "A": "Yarışma",
+        "B": "Test yayını",
+        "C": "Acil durum",
+        "D": "Özel görüşme"
+      },
+      "answer": "A",
+      "image": null
+    },
+    {
+      "id": 30,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde net ne anlama gelir?",
+      "options": {
+        "A": "Organize haberleşme grubu",
+        "B": "Sinyal gücü",
+        "C": "Frekans aralığı",
+        "D": "Yayın süresi"
+      },
+      "answer": "A",
+      "image": null
+    },
+    {
+      "id": 31,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde beacon ne anlama gelir?",
+      "options": {
+        "A": "İşaret istasyonu",
+        "B": "Röle istasyonu",
+        "C": "Mobil istasyon",
+        "D": "Sabit istasyon"
+      },
+      "answer": "A",
+      "image": null
+    },
+    {
+      "id": 32,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde field day ne anlama gelir?",
+      "options": {
+        "A": "Açık alanda yapılan etkinlik günü",
+        "B": "Test günü",
+        "C": "Yarışma günü",
+        "D": "Eğitim günü"
+      },
+      "answer": "A",
+      "image": null
+    }
+  ]
+} 

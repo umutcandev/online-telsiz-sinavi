@@ -1,0 +1,368 @@
+{
+  "exam_type": "regulations",
+  "title": "A-B SINIFI ULUSAL VE ULUSLARARASI DÜZENLEMELER SORU TESTİ",
+  "total_questions": 30,
+  "questions_per_exam": 15,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Amatör Telsizcilik Belgesi almak için aşağıdakilerden hangisi gerekli değildir?",
+      "options": {
+        "A": "18 yaşını doldurmuş olmak",
+        "B": "Türkiye Cumhuriyeti vatandaşı olmak",
+        "C": "Üniversite mezunu olmak",
+        "D": "Sınavda başarılı olmak"
+      },
+      "answer": "C",
+      "image": null
+    },
+    {
+      "id": 2,
+      "question": "Amatör telsiz istasyonunda bulundurulması gereken belgeler arasında aşağıdakilerden hangisi yer almaz?",
+      "options": {
+        "A": "Amatör Telsizcilik Belgesi",
+        "B": "Ruhsat",
+        "C": "Çağrı İşareti Belgesi",
+        "D": "Diploma"
+      },
+      "answer": "D",
+      "image": null
+    },
+    {
+      "id": 3,
+      "question": "KEGM'nin açık adı nedir?",
+      "options": {
+        "A": "Kıyı Emniyeti Genel Müdürlüğü",
+        "B": "Kara Emniyeti Genel Müdürlüğü",
+        "C": "Kamu Emniyeti Genel Müdürlüğü",
+        "D": "Kara Emniyet Güvenlik Müdürlüğü"
+      },
+      "answer": "A",
+      "image": null
+    },
+    {
+      "id": 4,
+      "question": "Amatör telsizcilik sınavında başarılı olmak için kaç puan almak gerekir?",
+      "options": {
+        "A": "50",
+        "B": "60",
+        "C": "70",
+        "D": "80"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 5,
+      "question": "Amatör telsiz istasyonunun yerinin değiştirilmesi durumunda ne kadar süre içinde KEGM'ye bildirilmelidir?",
+      "options": {
+        "A": "15 gün",
+        "B": "30 gün",
+        "C": "45 gün",
+        "D": "60 gün"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 6,
+      "question": "Amatör telsizcilik belgesinin geçerlilik süresi ne kadardır?",
+      "options": {
+        "A": "3 yıl",
+        "B": "5 yıl",
+        "C": "10 yıl",
+        "D": "Süresiz"
+      },
+      "answer": "D",
+      "image": null
+    },
+    {
+      "id": 7,
+      "question": "Amatör telsiz istasyonunun çalışma frekans bandı dışında yayın yapması durumunda ne olur?",
+      "options": {
+        "A": "Uyarı verilir",
+        "B": "Para cezası uygulanır",
+        "C": "Ruhsat iptal edilir",
+        "D": "Belge askıya alınır"
+      },
+      "answer": "C",
+      "image": null
+    },
+    {
+      "id": 8,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerin gizliliği ile ilgili aşağıdakilerden hangisi doğrudur?",
+      "options": {
+        "A": "Haberleşmeler kayıt altına alınabilir",
+        "B": "Haberleşmeler üçüncü şahıslara aktarılabilir",
+        "C": "Haberleşmelerin gizliliği esastır",
+        "D": "Haberleşmeler sosyal medyada paylaşılabilir"
+      },
+      "answer": "C",
+      "image": null
+    },
+    {
+      "id": 9,
+      "question": "Amatör telsiz istasyonlarında acil durum haberleşmesi yapılması durumunda ne yapılmalıdır?",
+      "options": {
+        "A": "Normal haberleşmeye devam edilir",
+        "B": "Acil durum haberleşmesine öncelik verilir",
+        "C": "İstasyon kapatılır",
+        "D": "KEGM'ye bildirilir"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 10,
+      "question": "Amatör telsiz istasyonlarında kullanılan çağrı işaretleri ile ilgili aşağıdakilerden hangisi yanlıştır?",
+      "options": {
+        "A": "KEGM tarafından verilir",
+        "B": "Kişiye özeldir",
+        "C": "İsteğe bağlı olarak kullanılır",
+        "D": "Benzersiz olmalıdır"
+      },
+      "answer": "C",
+      "image": null
+    },
+    {
+      "id": 11,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde hangi dil kullanılmalıdır?",
+      "options": {
+        "A": "Sadece Türkçe",
+        "B": "Sadece İngilizce",
+        "C": "Türkçe veya uluslararası amatör telsiz haberleşmelerinde geçerli diller",
+        "D": "Herhangi bir dil"
+      },
+      "answer": "C",
+      "image": null
+    },
+    {
+      "id": 12,
+      "question": "Amatör telsizcilik belgesi başvurusunda aşağıdaki belgelerden hangisi istenmez?",
+      "options": {
+        "A": "Kimlik fotokopisi",
+        "B": "Sağlık raporu",
+        "C": "Sınav başarı belgesi",
+        "D": "Adli sicil kaydı"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 13,
+      "question": "Amatör telsiz istasyonlarında kullanılan cihazların teknik özellikleri ile ilgili aşağıdakilerden hangisi doğrudur?",
+      "options": {
+        "A": "KEGM tarafından onaylanmış olmalıdır",
+        "B": "CE işareti taşımalıdır",
+        "C": "TSE belgesi olmalıdır",
+        "D": "Marka ve modeli önemli değildir"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 14,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde müzik yayını yapılabilir mi?",
+      "options": {
+        "A": "Evet, her zaman yapılabilir",
+        "B": "Hayır, kesinlikle yapılamaz",
+        "C": "Sadece test amaçlı yapılabilir",
+        "D": "Sadece özel günlerde yapılabilir"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 15,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde reklam yapılabilir mi?",
+      "options": {
+        "A": "Evet, her türlü reklam yapılabilir",
+        "B": "Hayır, kesinlikle yapılamaz",
+        "C": "Sadece amatör telsizcilikle ilgili reklamlar yapılabilir",
+        "D": "Sadece sponsorların reklamı yapılabilir"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 16,
+      "question": "Amatör telsiz istasyonlarında kullanılan güç seviyeleri ile ilgili aşağıdakilerden hangisi doğrudur?",
+      "options": {
+        "A": "İstenilen güçte çalışılabilir",
+        "B": "Maksimum güç sınırı yoktur",
+        "C": "KEGM tarafından belirlenen sınırlar içinde olmalıdır",
+        "D": "Minimum güç sınırı vardır"
+      },
+      "answer": "C",
+      "image": null
+    },
+    {
+      "id": 17,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde siyasi propaganda yapılabilir mi?",
+      "options": {
+        "A": "Evet, her türlü propaganda yapılabilir",
+        "B": "Hayır, kesinlikle yapılamaz",
+        "C": "Sadece seçim dönemlerinde yapılabilir",
+        "D": "Sadece kendi görüşleri paylaşılabilir"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 18,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde ticari faaliyet yapılabilir mi?",
+      "options": {
+        "A": "Evet, her türlü ticari faaliyet yapılabilir",
+        "B": "Hayır, kesinlikle yapılamaz",
+        "C": "Sadece amatör telsizcilikle ilgili ticari faaliyet yapılabilir",
+        "D": "Sadece kendi ürünlerinin satışı yapılabilir"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 19,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde üçüncü şahısların mesajları iletilebilir mi?",
+      "options": {
+        "A": "Evet, her türlü mesaj iletilebilir",
+        "B": "Hayır, kesinlikle iletilemez",
+        "C": "Sadece acil durumlarda iletilebilir",
+        "D": "Sadece izin alınarak iletilebilir"
+      },
+      "answer": "C",
+      "image": null
+    },
+    {
+      "id": 20,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde şifreli yayın yapılabilir mi?",
+      "options": {
+        "A": "Evet, her türlü şifreleme yapılabilir",
+        "B": "Hayır, kesinlikle yapılamaz",
+        "C": "Sadece özel durumlarda yapılabilir",
+        "D": "Sadece izin alınarak yapılabilir"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 21,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde log defteri tutulması zorunlu mudur?",
+      "options": {
+        "A": "Evet, zorunludur",
+        "B": "Hayır, zorunlu değildir",
+        "C": "Sadece DX haberleşmelerinde zorunludur",
+        "D": "Sadece yarışmalarda zorunludur"
+      },
+      "answer": "A",
+      "image": null
+    },
+    {
+      "id": 22,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde hangi bilgiler kaydedilmelidir?",
+      "options": {
+        "A": "Sadece tarih",
+        "B": "Sadece saat",
+        "C": "Tarih, saat, frekans, mod ve karşı istasyon bilgileri",
+        "D": "Kayıt tutmaya gerek yoktur"
+      },
+      "answer": "C",
+      "image": null
+    },
+    {
+      "id": 23,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde hangi konular konuşulabilir?",
+      "options": {
+        "A": "Her türlü konu",
+        "B": "Sadece teknik konular",
+        "C": "Amatör telsizcilikle ilgili teknik ve operasyonel konular",
+        "D": "Sadece hava durumu"
+      },
+      "answer": "C",
+      "image": null
+    },
+    {
+      "id": 24,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde güvenlik güçlerinin telsiz haberleşmesi dinlenebilir mi?",
+      "options": {
+        "A": "Evet, dinlenebilir",
+        "B": "Hayır, kesinlikle dinlenemez",
+        "C": "Sadece acil durumlarda dinlenebilir",
+        "D": "Sadece izin alınarak dinlenebilir"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 25,
+      "question": "Amatör telsiz istasyonlarında yapılan haberleşmelerde acil durum bildirimi nasıl yapılır?",
+      "options": {
+        "A": "MAYDAY veya SOS işareti kullanılır",
+        "B": "Normal haberleşmeye devam edilir",
+        "C": "İstasyon kapatılır",
+        "D": "Sadece yetkililere bildirilir"
+      },
+      "answer": "A",
+      "image": null
+    },
+    {
+      "id": 26,
+      "question": "Amatör telsiz istasyonlarında kullanılan çağrı işaretleri nasıl belirlenir?",
+      "options": {
+        "A": "Kişi kendisi belirler",
+        "B": "KEGM tarafından belirlenir",
+        "C": "Dernek tarafından belirlenir",
+        "D": "Rastgele belirlenir"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 27,
+      "question": "Amatör telsiz istasyonlarında kullanılan cihazların bakımı kim tarafından yapılabilir?",
+      "options": {
+        "A": "Sadece yetkili servisler",
+        "B": "Sadece amatör telsizciler",
+        "C": "Herhangi bir elektronikçi",
+        "D": "Teknik bilgisi olan herkes"
+      },
+      "answer": "D",
+      "image": null
+    },
+    {
+      "id": 28,
+      "question": "Amatör telsiz istasyonlarında kullanılan cihazların frekans ayarları kim tarafından yapılabilir?",
+      "options": {
+        "A": "Sadece yetkili servisler",
+        "B": "Sadece amatör telsizciler",
+        "C": "Herhangi bir elektronikçi",
+        "D": "KEGM tarafından yetkilendirilmiş kişiler"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 29,
+      "question": "Amatör telsiz istasyonlarında kullanılan cihazların güç çıkışı kim tarafından ayarlanabilir?",
+      "options": {
+        "A": "Sadece yetkili servisler",
+        "B": "Sadece amatör telsizciler",
+        "C": "Herhangi bir elektronikçi",
+        "D": "KEGM tarafından yetkilendirilmiş kişiler"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 30,
+      "question": "Amatör telsiz istasyonlarında kullanılan antenlerin kurulumu için hangi izinler gereklidir?",
+      "options": {
+        "A": "Sadece KEGM izni",
+        "B": "Sadece belediye izni",
+        "C": "İlgili tüm kurumlardan gerekli izinler",
+        "D": "İzin gerekmez"
+      },
+      "answer": "C",
+      "image": null
+    }
+  ]
+} 

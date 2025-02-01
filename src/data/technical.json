@@ -1,0 +1,368 @@
+{
+  "exam_type": "technical",
+  "title": "A-B SINIFI TEKNİK SORU TESTİ",
+  "total_questions": 30,
+  "questions_per_exam": 15,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Amatör telsiz cihazlarında kullanılan modülasyon türleri arasında hangisi yer almaz?",
+      "options": {
+        "A": "AM (Amplitude Modulation)",
+        "B": "FM (Frequency Modulation)",
+        "C": "PAM (Pulse Amplitude Modulation)",
+        "D": "SSB (Single Side Band)"
+      },
+      "answer": "C",
+      "image": null
+    },
+    {
+      "id": 2,
+      "question": "Bir dipol antenin toplam uzunluğu dalga boyunun kaç katıdır?",
+      "options": {
+        "A": "1/2",
+        "B": "1/4",
+        "C": "1",
+        "D": "2"
+      },
+      "answer": "A",
+      "image": null
+    },
+    {
+      "id": 3,
+      "question": "Aşağıdakilerden hangisi bir anten türü değildir?",
+      "options": {
+        "A": "Yagi",
+        "B": "Dipol",
+        "C": "Quad",
+        "D": "Resistor"
+      },
+      "answer": "D",
+      "image": null
+    },
+    {
+      "id": 4,
+      "question": "SWR (Duran Dalga Oranı) değeri ideal durumda kaç olmalıdır?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 5,
+      "question": "Amatör telsiz cihazlarında kullanılan güç kaynağının voltajı genellikle kaç volt DC'dir?",
+      "options": {
+        "A": "5V",
+        "B": "12V",
+        "C": "24V",
+        "D": "220V"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 6,
+      "question": "Aşağıdakilerden hangisi bir frekans birimi değildir?",
+      "options": {
+        "A": "Hertz (Hz)",
+        "B": "Kilohertz (kHz)",
+        "C": "Megahertz (MHz)",
+        "D": "Amper (A)"
+      },
+      "answer": "D",
+      "image": null
+    },
+    {
+      "id": 7,
+      "question": "HF bandı hangi frekans aralığını kapsar?",
+      "options": {
+        "A": "3-30 MHz",
+        "B": "30-300 MHz",
+        "C": "300-3000 MHz",
+        "D": "3-30 GHz"
+      },
+      "answer": "A",
+      "image": null
+    },
+    {
+      "id": 8,
+      "question": "VHF bandı hangi frekans aralığını kapsar?",
+      "options": {
+        "A": "3-30 MHz",
+        "B": "30-300 MHz",
+        "C": "300-3000 MHz",
+        "D": "3-30 GHz"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 9,
+      "question": "UHF bandı hangi frekans aralığını kapsar?",
+      "options": {
+        "A": "3-30 MHz",
+        "B": "30-300 MHz",
+        "C": "300-3000 MHz",
+        "D": "3-30 GHz"
+      },
+      "answer": "C",
+      "image": null
+    },
+    {
+      "id": 10,
+      "question": "Aşağıdakilerden hangisi bir empedans birimi değildir?",
+      "options": {
+        "A": "Ohm",
+        "B": "Kiloohm",
+        "C": "Megaohm",
+        "D": "Watt"
+      },
+      "answer": "D",
+      "image": null
+    },
+    {
+      "id": 11,
+      "question": "Koaksiyel kablonun karakteristik empedansı genellikle kaç ohm'dur?",
+      "options": {
+        "A": "25",
+        "B": "50",
+        "C": "75",
+        "D": "100"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 12,
+      "question": "Aşağıdakilerden hangisi bir güç birimi değildir?",
+      "options": {
+        "A": "Watt",
+        "B": "Kilowatt",
+        "C": "Megawatt",
+        "D": "Volt"
+      },
+      "answer": "D",
+      "image": null
+    },
+    {
+      "id": 13,
+      "question": "Amatör telsiz cihazlarında kullanılan filtreler ne işe yarar?",
+      "options": {
+        "A": "Sinyali güçlendirir",
+        "B": "İstenmeyen frekansları eler",
+        "C": "Modülasyon yapar",
+        "D": "Demodülasyon yapar"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 14,
+      "question": "Aşağıdakilerden hangisi bir anten kazanç birimi değildir?",
+      "options": {
+        "A": "dBi",
+        "B": "dBd",
+        "C": "dB",
+        "D": "Hz"
+      },
+      "answer": "D",
+      "image": null
+    },
+    {
+      "id": 15,
+      "question": "Yagi anteninde bulunan elemanlardan hangisi aktif elementtir?",
+      "options": {
+        "A": "Direktor",
+        "B": "Reflektor",
+        "C": "Radyatör",
+        "D": "Boom"
+      },
+      "answer": "C",
+      "image": null
+    },
+    {
+      "id": 16,
+      "question": "Aşağıdakilerden hangisi bir modülasyon türü değildir?",
+      "options": {
+        "A": "AM",
+        "B": "FM",
+        "C": "PM",
+        "D": "OM"
+      },
+      "answer": "D",
+      "image": null
+    },
+    {
+      "id": 17,
+      "question": "Bir alıcının duyarlılığı neyi ifade eder?",
+      "options": {
+        "A": "Maksimum güç çıkışını",
+        "B": "Minimum alınabilir sinyal seviyesini",
+        "C": "Frekans kararlılığını",
+        "D": "Modülasyon derinliğini"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 18,
+      "question": "Aşağıdakilerden hangisi bir yarı iletken malzeme değildir?",
+      "options": {
+        "A": "Silisyum",
+        "B": "Germanyum",
+        "C": "Bakır",
+        "D": "Galyum"
+      },
+      "answer": "C",
+      "image": null
+    },
+    {
+      "id": 19,
+      "question": "Aşağıdakilerden hangisi bir pasif devre elemanı değildir?",
+      "options": {
+        "A": "Direnç",
+        "B": "Kondansatör",
+        "C": "Bobin",
+        "D": "Transistör"
+      },
+      "answer": "D",
+      "image": null
+    },
+    {
+      "id": 20,
+      "question": "Aşağıdakilerden hangisi bir aktif devre elemanıdır?",
+      "options": {
+        "A": "Direnç",
+        "B": "Kondansatör",
+        "C": "Bobin",
+        "D": "Diyot"
+      },
+      "answer": "D",
+      "image": null
+    },
+    {
+      "id": 21,
+      "question": "Bir LC osilatör devresinde hangi elemanlar bulunur?",
+      "options": {
+        "A": "Direnç ve Kondansatör",
+        "B": "Bobin ve Kondansatör",
+        "C": "Direnç ve Bobin",
+        "D": "Transistör ve Diyot"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 22,
+      "question": "Aşağıdakilerden hangisi bir güç kaynağı türü değildir?",
+      "options": {
+        "A": "Lineer",
+        "B": "Anahtarlamalı",
+        "C": "Transformatör",
+        "D": "Regüle"
+      },
+      "answer": "C",
+      "image": null
+    },
+    {
+      "id": 23,
+      "question": "Bir alıcının seçiciliği neyi ifade eder?",
+      "options": {
+        "A": "İstenilen frekansı ayırt edebilme yeteneğini",
+        "B": "Maksimum güç çıkışını",
+        "C": "Minimum alınabilir sinyal seviyesini",
+        "D": "Modülasyon derinliğini"
+      },
+      "answer": "A",
+      "image": null
+    },
+    {
+      "id": 24,
+      "question": "Aşağıdakilerden hangisi bir anten polarizasyon türü değildir?",
+      "options": {
+        "A": "Yatay",
+        "B": "Dikey",
+        "C": "Dairesel",
+        "D": "Paralel"
+      },
+      "answer": "D",
+      "image": null
+    },
+    {
+      "id": 25,
+      "question": "Bir vericide final katı ne işe yarar?",
+      "options": {
+        "A": "Sinyali modüle eder",
+        "B": "Sinyali filtreler",
+        "C": "Sinyali güçlendirir",
+        "D": "Sinyali demodüle eder"
+      },
+      "answer": "C",
+      "image": null
+    },
+    {
+      "id": 26,
+      "question": "Aşağıdakilerden hangisi bir anten yönlendirme sistemi değildir?",
+      "options": {
+        "A": "Rotor",
+        "B": "Azimut",
+        "C": "Elevasyonr",
+        "D": "Modülatör"
+      },
+      "answer": "D",
+      "image": null
+    },
+    {
+      "id": 27,
+      "question": "Bir alıcının AGC devresi ne işe yarar?",
+      "options": {
+        "A": "Sinyali güçlendirir",
+        "B": "Çıkış seviyesini sabit tutar",
+        "C": "Frekansı ayarlar",
+        "D": "Modülasyon yapar"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 28,
+      "question": "Aşağıdakilerden hangisi bir frekans sentezleyici türü değildir?",
+      "options": {
+        "A": "PLL",
+        "B": "DDS",
+        "C": "VFO",
+        "D": "SWR"
+      },
+      "answer": "D",
+      "image": null
+    },
+    {
+      "id": 29,
+      "question": "Bir RF güç amplifikatörünün verimi neyi ifade eder?",
+      "options": {
+        "A": "Giriş gücünün çıkış gücüne oranını",
+        "B": "Çıkış gücünün giriş gücüne oranını",
+        "C": "Toplam güç kaybını",
+        "D": "Isı yayılımını"
+      },
+      "answer": "B",
+      "image": null
+    },
+    {
+      "id": 30,
+      "question": "Aşağıdakilerden hangisi bir anten empedans uyumlama yöntemi değildir?",
+      "options": {
+        "A": "Gamma match",
+        "B": "T match",
+        "C": "Beta match",
+        "D": "Alpha match"
+      },
+      "answer": "D",
+      "image": null
+    }
+  ]
+} 
