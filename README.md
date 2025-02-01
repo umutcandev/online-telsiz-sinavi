@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Online Amatör Telsizcilik Sınavı
 
-## Getting Started
+Bu proje, amatör telsizcilik sınavına hazırlanan adaylar için geliştirilmiş ücretsiz bir online test platformudur. A-B sınıfı teknik, işletme ve düzenlemeler konularında kendinizi test edebilir ve gerçek sınav formatında pratik yapabilirsiniz.
 
-First, run the development server:
+## 🚀 Özellikler
 
+- **Üç Farklı Test Kategorisi**
+  - A-B Sınıfı Ulusal ve Uluslararası Düzenlemeler (15 Soru)
+  - A-B Sınıfı İşletme (20 Soru)
+  - A-B Sınıfı Teknik (15 Soru)
+
+- **Gerçek Sınav Deneyimi**
+  - Gerçek sınav formatında sorular
+  - Anlık soru değerlendirme
+  - Detaylı sonuç analizi
+
+- **Kullanıcı Dostu Özellikler**
+  - Soruları gözden geçirme imkanı
+  - Doğru/yanlış cevap gösterimi
+  - Mobil uyumlu tasarım
+
+## 🛠️ Kullanılan Teknolojiler
+
+- [Next.js 14](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide Icons](https://lucide.dev/)
+
+## 🚀 Projeyi Çalıştırma
+
+1. Projeyi klonlayın:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/umutcandev/online-telsiz-sinavi.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Proje dizinine gidin:
+```bash
+cd online-telsiz-sinavi
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Gerekli paketleri yükleyin:
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Geliştirme sunucusunu başlatın:
+```bash
+npm run dev
+```
 
-## Learn More
+5. Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresini açın.
 
-To learn more about Next.js, take a look at the following resources:
+## 📝 Lisans
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasına bakın.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🤝 Katkıda Bulunma
 
-## Deploy on Vercel
+1. Bu projeyi fork edin
+2. Feature branch'i oluşturun (`git checkout -b feature/AmazingFeature`)
+3. Değişikliklerinizi commit edin (`git commit -m 'Add some AmazingFeature'`)
+4. Branch'inize push edin (`git push origin feature/AmazingFeature`)
+5. Pull Request oluşturun
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📞 İletişim
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Umutcan Duman - [@umutcandev](https://github.com/umutcandev)
+
+Proje Linki: [https://github.com/umutcandev/online-telsiz-sinavi](https://github.com/umutcandev/online-telsiz-sinavi)

@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { ArrowRight, CheckCircle2, XCircle, Circle, RefreshCw, Github } from "lucide-react";
 import { ExamSection } from '@/components/exam/ExamSection';
-import { getExamQuestions, getExamTitle, getExamQuestionCount, ExamType } from '@/lib/exam';
+import { getExamQuestions, getExamTitle, ExamType } from '@/lib/exam';
 
 export default function Home() {
   const [activeExam, setActiveExam] = useState<ExamType | null>(null);

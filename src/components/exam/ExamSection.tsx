@@ -1,20 +1,6 @@
 'use client';
 
-import { useState } from 'react';
-import { ArrowRight, Circle, CircleDot, ArrowLeft, CheckCircle2, XCircle, LogOut } from 'lucide-react';
-
-interface Question {
-  id: number;
-  question: string;
-  options: {
-    A: string;
-    B: string;
-    C: string;
-    D: string;
-  };
-  answer: string;
-  image: string | null;
-}
+import { ArrowRight, Circle, CircleDot, ArrowLeft, LogOut } from 'lucide-react';
 
 interface ExamSectionProps {
   title: string;
@@ -84,10 +70,10 @@ export function ExamSection({
                 className={`group w-full p-3 sm:p-4 rounded-lg text-left transition-all bg-black border-2 
                   ${showAnswers
                     ? isSelected
-                      ? isCorrect
+                      ? correctAnswer === optionLetter
                         ? "border-green-500 bg-green-500/10"
                         : "border-red-500 bg-red-500/10"
-                      : isCorrect
+                      : correctAnswer === optionLetter
                         ? "border-green-500 bg-green-500/10"
                         : "border-zinc-950"
                     : isSelected
