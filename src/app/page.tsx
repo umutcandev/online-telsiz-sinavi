@@ -5,24 +5,11 @@ import { ArrowRight, CheckCircle2, XCircle, Circle, RefreshCw, Github } from "lu
 import { ExamSection } from '@/components/exam/ExamSection';
 import { getExamQuestions, getExamTitle, ExamType } from '@/lib/exam';
 
-interface Question {
-  id: number;
-  question: string;
-  options: {
-    A: string;
-    B: string;
-    C: string;
-    D: string;
-  };
-  answer: string;
-  image: string | null;
-}
-
 export default function Home() {
   const [activeExam, setActiveExam] = useState<ExamType | null>(null);
   const [currentQuestion, setCurrentQuestion] = useState(1);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
-  const [questions, setQuestions] = useState<Question[]>([]);
+  const [questions, setQuestions] = useState<any[]>([]);
   const [answers, setAnswers] = useState<(string | null)[]>([]);
   const [showResults, setShowResults] = useState(false);
   const [reviewMode, setReviewMode] = useState(false);
@@ -129,14 +116,14 @@ export default function Home() {
               </h2>
               <a
                 href="https://github.com/umutcandev"
-                target="_blank"
-                rel="noopener noreferrer"
+            target="_blank"
+            rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-zinc-900 hover:bg-zinc-800 transition-colors border border-zinc-800 text-sm text-zinc-400 hover:text-white w-fit"
               >
                 <Github className="w-4 h-4" />
                 umutcandev
-              </a>
-            </div>
+          </a>
+        </div>
             
             <p className="text-sm sm:text-base text-zinc-400 mb-3 sm:mb-4">
               Amatör telsizcilik sınavına hazırlananlar için kapsamlı online test sayfası. 
@@ -149,8 +136,8 @@ export default function Home() {
               Daha fazla bilgi için ilgili bağlantıdan{" "}
               <a 
                 href="https://izciforum.com/konular/meb-amator-telsizcilik-e-sinav-kilavuzu.49/"
-                target="_blank" 
-                rel="noopener noreferrer"
+          target="_blank"
+          rel="noopener noreferrer"
                 className="text-white underline hover:text-zinc-300"
               >
                 MEB e-Sınav Kılavuzuna
@@ -161,7 +148,7 @@ export default function Home() {
             {/* Sınav Kategorileri */}
             <div className="space-y-4 sm:space-y-6">
               {/* Düzenlemeler Sınavı */}
-              <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:justify-between p-4 sm:p-6 rounded-lg bg-black border-2 border-zinc-950">
+              <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:justify-between p-4 sm:p-6 rounded-lg bg-black border-2 border-zinc-800 hover:border-zinc-700">
                 <div className="space-y-2 sm:space-y-0 sm:flex sm:items-center sm:gap-3">
                   <h3 className="text-sm sm:text-base text-white">
                     A-B Sınıfı Ulusal ve Uluslararası Düzenlemeler Soru Testi
@@ -178,7 +165,7 @@ export default function Home() {
               </div>
 
               {/* İşletme Sınavı */}
-              <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:justify-between p-4 sm:p-6 rounded-lg bg-black border-2 border-zinc-950">
+              <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:justify-between p-4 sm:p-6 rounded-lg bg-black border-2 border-zinc-800 hover:border-zinc-700">
                 <div className="space-y-2 sm:space-y-0 sm:flex sm:items-center sm:gap-3">
                   <h3 className="text-sm sm:text-base text-white">
                     A-B Sınıfı İşletme Soru Testi
@@ -195,7 +182,7 @@ export default function Home() {
               </div>
 
               {/* Teknik Sınavı */}
-              <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:justify-between p-4 sm:p-6 rounded-lg bg-black border-2 border-zinc-950">
+              <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:justify-between p-4 sm:p-6 rounded-lg bg-black border-2 border-zinc-800 hover:border-zinc-700">
                 <div className="space-y-2 sm:space-y-0 sm:flex sm:items-center sm:gap-3">
                   <h3 className="text-sm sm:text-base text-white">
                     A-B Sınıfı Teknik Soru Testi
@@ -215,7 +202,7 @@ export default function Home() {
         ) : showResults ? (
           // Sonuç Ekranı
           <div className="space-y-8">
-            <div className="flex items-center justify-between p-6 rounded-lg bg-black border-2 border-zinc-950">
+            <div className="flex items-center justify-between p-6 rounded-lg bg-black border-2 border-zinc-800 hover:border-zinc-700">
               <h2 className="text-base text-white">{getExamTitle(activeExam)}</h2>
               <div className="flex items-center gap-3">
                 <span className="text-sm px-3 py-0.5 rounded-full bg-zinc-950 text-zinc-600">
@@ -225,7 +212,7 @@ export default function Home() {
             </div>
 
             {/* Sonuç Detayları */}
-            <div className="p-6 rounded-lg bg-black border-2 border-zinc-950">
+            <div className="p-6 rounded-lg bg-black border-2 border-zinc-800 hover:border-zinc-700">
               <div className="flex items-center justify-center mb-8">
                 <div className="relative w-32 h-32">
                   <div className="absolute inset-0 flex items-center justify-center">
@@ -258,7 +245,7 @@ export default function Home() {
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                <div className="p-4 rounded-lg border-2 border-zinc-800">
+                <div className="p-4 rounded-lg border-2 border-zinc-800 hover:border-zinc-700">
                   <div className="flex items-center justify-between sm:flex-col sm:items-start gap-2 mb-2">
                     <div className="flex items-center gap-2">
                       <CheckCircle2 className="w-5 h-5 text-green-500" />
@@ -267,7 +254,7 @@ export default function Home() {
                     <div className="text-2xl font-bold text-white">{calculateResults().correct}</div>
                   </div>
                 </div>
-                <div className="p-4 rounded-lg border-2 border-zinc-800">
+                <div className="p-4 rounded-lg border-2 border-zinc-800 hover:border-zinc-700">
                   <div className="flex items-center justify-between sm:flex-col sm:items-start gap-2 mb-2">
                     <div className="flex items-center gap-2">
                       <XCircle className="w-5 h-5 text-red-500" />
@@ -276,7 +263,7 @@ export default function Home() {
                     <div className="text-2xl font-bold text-white">{calculateResults().wrong}</div>
                   </div>
                 </div>
-                <div className="p-4 rounded-lg border-2 border-zinc-800">
+                <div className="p-4 rounded-lg border-2 border-zinc-800 hover:border-zinc-700">
                   <div className="flex items-center justify-between sm:flex-col sm:items-start gap-2 mb-2">
                     <div className="flex items-center gap-2">
                       <Circle className="w-5 h-5 text-zinc-500" />
@@ -292,7 +279,7 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 sm:justify-between">
               <button
                 onClick={handleExitExam}
-                className="w-full sm:w-auto px-4 py-2 rounded-lg border-2 border-zinc-800 text-zinc-400 hover:text-white hover:border-zinc-700 transition-colors inline-flex items-center justify-center gap-2 text-[13px] sm:text-[15px]"
+                className="w-full sm:w-auto px-4 py-2 rounded-lg border-2 border-zinc-800 hover:border-zinc-700 text-zinc-400 hover:text-white transition-colors inline-flex items-center justify-center gap-2 text-[13px] sm:text-[15px]"
               >
                 Ana Sayfaya Dön
               </button>
@@ -304,7 +291,7 @@ export default function Home() {
                     setShowResults(false);
                     setCurrentQuestion(1);
                   }}
-                  className="w-full sm:w-auto px-4 py-2 rounded-lg border-2 border-zinc-800 text-white hover:border-zinc-700 transition-colors inline-flex items-center justify-center gap-2 text-[13px] sm:text-[15px]"
+                  className="w-full sm:w-auto px-4 py-2 rounded-lg border-2 border-zinc-800 hover:border-zinc-700 text-white hover:border-zinc-700 transition-colors inline-flex items-center justify-center gap-2 text-[13px] sm:text-[15px]"
                 >
                   Sorulara Verdiğin Cevabı Gör
                 </button>
@@ -359,7 +346,7 @@ export default function Home() {
             isReviewMode={reviewMode}
           />
         )}
-      </div>
+    </div>
     </main>
   );
 }

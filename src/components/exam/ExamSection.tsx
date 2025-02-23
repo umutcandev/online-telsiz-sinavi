@@ -42,7 +42,7 @@ export function ExamSection({
   return (
     <div className="space-y-8">
       {/* Header */}
-      <div className="flex items-center justify-between p-4 sm:p-6 rounded-lg bg-black border-2 border-zinc-950">
+      <div className="flex items-center justify-between p-4 sm:p-6 rounded-lg bg-black border-2 border-zinc-800 hover:border-zinc-700">
         <h2 className="text-sm sm:text-base text-white">{title}</h2>
         <div className="flex items-center gap-3">
           <span className="text-xs sm:text-sm px-3 py-0.5 rounded-full bg-zinc-950 text-zinc-600">
@@ -52,7 +52,7 @@ export function ExamSection({
       </div>
 
       {/* Question */}
-      <div className="p-4 sm:p-6 rounded-lg bg-black border-2 border-zinc-950">
+      <div className="p-4 sm:p-6 rounded-lg bg-black border-2 border-zinc-800 hover:border-zinc-700">
         <p className="text-sm sm:text-base text-white mb-6 sm:mb-8">{question}</p>
 
         {/* Options */}
@@ -61,6 +61,7 @@ export function ExamSection({
             const optionLetter = String.fromCharCode(65 + index);
             const isSelected = selectedOption === optionLetter;
             const isCorrect = showAnswers && correctAnswer === optionLetter;
+            const isWrong = showAnswers && isSelected && correctAnswer !== optionLetter;
 
             return (
               <button
@@ -74,10 +75,10 @@ export function ExamSection({
                         : "border-red-500 bg-red-500/10"
                       : correctAnswer === optionLetter
                         ? "border-green-500 bg-green-500/10"
-                        : "border-zinc-950"
+                        : "border-zinc-800 hover:border-zinc-700"
                     : isSelected
                       ? "border-white"
-                      : "border-zinc-950 hover:border-zinc-800"
+                      : "border-zinc-800 hover:border-zinc-700"
                   }`}
                 disabled={showAnswers}
               >

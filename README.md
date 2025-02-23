@@ -65,6 +65,6 @@ Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için [LICEN
 
 ## 📞 İletişim
 
-Umutcan Duman - [@umutcandev](https://github.com/umutcandev)
+Umutcan - [@umutcandev](https://github.com/umutcandev)
 
 Proje Linki: [https://github.com/umutcandev/online-telsiz-sinavi](https://github.com/umutcandev/online-telsiz-sinavi)
